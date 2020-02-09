@@ -53,7 +53,6 @@ Vagrant.configure("2") do |config|
            rpm -i /root/nginx-1.14.1-1.el7_4.ngx.src.rpm
            wget -P /root https://www.openssl.org/source/latest.tar.gz
            tar -C /root -xvf /root/latest.tar.gz
-#           yum-builddep /root/rpmbuild/SPECS/nginx.spec
            
       SHELL
 
