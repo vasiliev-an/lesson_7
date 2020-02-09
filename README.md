@@ -119,9 +119,3 @@ yum install percona-release -y
 Все прошло успешно. В случае если вам потребуется обновить репозиторий (а это
 делается при каждом добавлении файлов), снова то выполните команду createrepo
 /usr/share/nginx/html/repo/
-
-
-
-Запускаем и проверяем, какие порты слушаются:
-
-![network](https://github.com/vasiliev-an/lesson_5/blob/master/img/15.png)
